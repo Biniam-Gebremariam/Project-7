@@ -56,10 +56,10 @@ void print()
 int main()
 {
     init();
-    insert(10); //key = 10 % 7 ==> 3
-    insert(4);  //key = 4 % 7  ==> 4
-    insert(2);  //key = 2 % 7  ==> 2
-    insert(3);  //key = 3 % 7  ==> 3 (collision)
+    insert(10); 
+    insert(4);  
+    insert(2);  
+    insert(3);  
 
     printf("Hash table\n");
     print();
